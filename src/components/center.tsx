@@ -92,7 +92,7 @@ export const Center = () => {
             description={
               "Shows pokemon's shiny and normal forms. Separated by generations, with a search feature to see previous sprite versions"
             }
-            picture='../images/Pokemon App Thumbnail.png'
+            picture='./images/Pokemon App Thumbnail.png'
             url={"https://lochyb.github.io/pokemon_app/"}
             hashtags={[
               { color: "darkBlue", caption: "React" },
@@ -107,7 +107,7 @@ export const Center = () => {
             description={
               "Self make Keyboard, all the soldering and building. NOVELKEYS X KAILH BLUEBERRY SWITCHES"
             }
-            picture='../images/keyboard_build_thumb.png'
+            picture='./images/keyboard_build_thumb.png'
             url='https://github.com/lochyb/keyboard_build'
             hashtags={[
               { color: "green", caption: "solder" },
@@ -122,7 +122,7 @@ export const Center = () => {
             description={
               "Practice App I made with react to help me learn about API's and React."
             }
-            picture='../images/reactWeatherApp.png'
+            picture='./images/reactWeatherApp.png'
             url={"https://lochyb.github.io/react-weather-app/"}
             hashtags={[
               { color: "darkBlue", caption: "React" },
@@ -138,7 +138,7 @@ export const Center = () => {
             description={
               "My first time building an application. Backend is Node and hosted on Heroku"
             }
-            picture='../images/weatherAppThumbnail.png'
+            picture='./images/weatherAppThumbnail.png'
             url={"https://lochyb-weather-app.herokuapp.com/"}
             hashtags={[
               { color: "green", caption: "NodeJS" },
