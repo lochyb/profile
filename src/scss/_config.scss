@@ -1,0 +1,46 @@
+$primary-color: #1b8a80;
+$secondary-color: #181818;
+$base-color: #f4decb;
+$text: #f4decb;
+$border: rgba(0, 0, 0, 0.3);
+
+/////////////
+$eggplant: #49274a;
+$grape: #94618e;
+$sand: #f4decb;
+$shell: #f8eee7;
+/////////////
+$blue: #31bff3;
+$lightBlue: lighten($blue, 15%);
+$darkBlue: lighten(#127cae, 10%);
+$purple: #a484e9;
+$pink: #f4889a;
+$red: darken($pink, 20%);
+$orange: #ffaf68;
+$yellow: #f6e683;
+$green: #79d45e;
+$darkGreen: #17ac9e;
+$brightPink: #f16eb3;
+
+@mixin grape-shadow {
+  box-shadow: 5px 5px 10px 0px #49274a44;
+}
+
+@mixin hideScrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  & {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+// $primary-color: #1a1a1a;
+// $secondary-color: #858383;
+// $base-color: #f8eee7;
+// $text: #49274a;
+// $border: rgba(0, 0, 0, 0.3);
+
+// $primary-color: #49274a;

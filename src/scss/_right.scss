@@ -1,0 +1,29 @@
+.about {
+  margin: 40px 5%;
+  text-align: left;
+  line-height: 2;
+  font-size: clamp(12px, 3vw, 28px);
+  opacity: 0;
+
+  h4 {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    transition: color 0.5s linear, border-color 0.5s ease,
+      padding-bottom 0.2s linear;
+  }
+
+  a:hover {
+    padding-bottom: -2px;
+    color: lighten($primary-color, 15%);
+    border-bottom-color: transparent !important;
+  }
+  i {
+    display: inline-grid;
+    margin: auto 5px;
+  }
+  p {
+    background-color: $secondary-color;
+  }
+}

@@ -1,0 +1,218 @@
+.card {
+  opacity: 0;
+  transition: opacity ease-in-out 1s;
+  margin: 40px 5%;
+
+  h4 {
+    text-align: left;
+    margin: 0;
+  }
+}
+
+.show {
+  opacity: 1 !important;
+  transition: opacity ease-in-out 1s;
+}
+
+.technologies {
+  .square {
+    display: flex;
+    border-bottom: 1px solid $border;
+    align-items: center;
+    p {
+      color: $eggplant;
+      margin: 0 0 0 5px;
+    }
+  }
+  .box {
+    margin: 2rem 0;
+    opacity: 0;
+    transition: opacity ease-in-out 1s;
+  }
+  .box:first-child {
+    margin: 15px 0 2rem 0;
+  }
+  .box:last-child {
+    margin: 2rem 0 0 0;
+  }
+
+  .square-wrapper::before {
+    content: "";
+    background: inherit;
+    width: 110%;
+    height: 5px;
+    position: absolute;
+    top: -4.2px;
+    right: -7px;
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
+    box-sizing: border-box;
+  }
+
+  .square-wrapper::after {
+    content: "";
+    box-sizing: border-box;
+    display: inline-block;
+    background: inherit;
+    width: 7.3px;
+    height: 101%;
+    transform: skewY(-30deg);
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    border: 1px solid $border;
+    transform-origin: center left;
+  }
+  .square-wrapper {
+    transform-style: preserve-3d;
+    border-right: 1px solid $border;
+
+    box-sizing: border-box;
+
+    i {
+      display: grid;
+      text-align: left;
+      padding: 5px 0 5px 10px;
+      font-size: 2rem;
+      color: $eggplant;
+    }
+  }
+}
+
+.interests {
+  .interests-wrapper {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .circle-wrapper {
+    transition: opacity ease-in-out 1s;
+    .circle {
+      width: 6rem;
+      height: 6rem;
+      margin: 1rem;
+      border-radius: 100%;
+      display: grid;
+      place-items: center;
+      color: $eggplant;
+
+      @include grape-shadow;
+      i {
+        font-size: 4rem;
+        display: grid;
+        place-items: center;
+        color: $eggplant;
+      }
+    }
+  }
+}
+
+.projects {
+  .project-card-container {
+    opacity: 0;
+    transition: opacity ease-in-out 1s;
+    display: grid;
+    position: relative;
+    grid-template-columns: min-content 1fr;
+    background-color: lighten($secondary-color, 20%);
+    margin: 7rem 5px;
+    border-radius: 5px;
+    @include grape-shadow;
+    font-size: clamp(10px, 10px, 32px);
+
+    .photoLink {
+      height: fit-content;
+      width: fit-content;
+      img {
+        height: clamp(110px, 30vw, 225px);
+
+        border-radius: 5px 0 0 5px;
+      }
+      a {
+        display: flex;
+      }
+    }
+
+    .postHeader {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      h6 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 1px 5px;
+        font-size: clamp(8px, 1vw, 12px);
+      }
+      h3 {
+        margin: 5px 0 0 0;
+        font-size: clamp(12px, 3vw, 1.5rem);
+      }
+
+      p {
+        margin: 0 5px;
+        font-size: clamp(8px, 2vw, 1rem);
+        line-height: 1;
+      }
+
+      //hashtag css
+      .hashtag-wrapper {
+        margin: 0 auto 15px;
+        display: flex;
+        flex-wrap: wrap;
+        color: $eggplant;
+        .hashtag {
+          border-radius: 1rem;
+          padding: 3px;
+          margin: 5px;
+          p {
+            font-size: clamp(8px, 2vw, 1.2rem);
+          }
+        }
+      }
+    }
+    //project button styles
+
+    .button-wrapper {
+      display: flex;
+      position: absolute;
+      bottom: -25px;
+      right: 0px;
+      a {
+        text-decoration: none;
+        display: flex;
+        font-size: clamp(10px, 3vw, 1.5rem);
+      }
+      .project-btn {
+        border: none;
+        outline: none;
+        display: flex;
+        align-items: center;
+        background-color: $primary-color;
+        color: $text;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 5px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
+        font-size: clamp(10px, 1vw, 1.5rem);
+        i {
+          margin: 3px 0 0 5px;
+          font-size: clamp(10px, 3vw, 1.5rem);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .project-card-container {
+    .project-btn {
+      i {
+        margin: 2px 0 0 2px;
+      }
+    }
+  }
+}

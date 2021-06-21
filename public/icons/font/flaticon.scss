@@ -1,0 +1,137 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?66be86dba74542395e8e8565349819a8") format("truetype"),
+url("./flaticon.woff?66be86dba74542395e8e8565349819a8") format("woff"),
+url("./flaticon.woff2?66be86dba74542395e8e8565349819a8") format("woff2"),
+url("./flaticon.eot?66be86dba74542395e8e8565349819a8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?66be86dba74542395e8e8565349819a8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "atom": "\f101",
+    "api": "\f102",
+    "tent": "\f103",
+    "sleeping": "\f104",
+    "goal": "\f105",
+    "laboratory": "\f106",
+    "pin": "\f107",
+    "mail": "\f108",
+    "sass": "\f109",
+    "ts": "\f10a",
+    "jsx": "\f10b",
+    "motherboard": "\f10c",
+    "html": "\f10d",
+    "javascript": "\f10e",
+    "css": "\f10f",
+    "github-1": "\f110",
+    "seo": "\f111",
+    "gameboy": "\f112",
+    "japan": "\f113",
+    "xlsx": "\f114",
+    "js": "\f115",
+    "v": "\f116",
+    "linux": "\f117",
+    "gaming": "\f118",
+    "bicycle": "\f119",
+    "open-book": "\f11a",
+    "youtube": "\f11b",
+    "japan-1": "\f11c",
+);
+
+.flaticon-atom:before {
+    content: map-get($flaticon-map, "atom");
+}
+.flaticon-api:before {
+    content: map-get($flaticon-map, "api");
+}
+.flaticon-tent:before {
+    content: map-get($flaticon-map, "tent");
+}
+.flaticon-sleeping:before {
+    content: map-get($flaticon-map, "sleeping");
+}
+.flaticon-goal:before {
+    content: map-get($flaticon-map, "goal");
+}
+.flaticon-laboratory:before {
+    content: map-get($flaticon-map, "laboratory");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-sass:before {
+    content: map-get($flaticon-map, "sass");
+}
+.flaticon-ts:before {
+    content: map-get($flaticon-map, "ts");
+}
+.flaticon-jsx:before {
+    content: map-get($flaticon-map, "jsx");
+}
+.flaticon-motherboard:before {
+    content: map-get($flaticon-map, "motherboard");
+}
+.flaticon-html:before {
+    content: map-get($flaticon-map, "html");
+}
+.flaticon-javascript:before {
+    content: map-get($flaticon-map, "javascript");
+}
+.flaticon-css:before {
+    content: map-get($flaticon-map, "css");
+}
+.flaticon-github-1:before {
+    content: map-get($flaticon-map, "github-1");
+}
+.flaticon-seo:before {
+    content: map-get($flaticon-map, "seo");
+}
+.flaticon-gameboy:before {
+    content: map-get($flaticon-map, "gameboy");
+}
+.flaticon-japan:before {
+    content: map-get($flaticon-map, "japan");
+}
+.flaticon-xlsx:before {
+    content: map-get($flaticon-map, "xlsx");
+}
+.flaticon-js:before {
+    content: map-get($flaticon-map, "js");
+}
+.flaticon-v:before {
+    content: map-get($flaticon-map, "v");
+}
+.flaticon-linux:before {
+    content: map-get($flaticon-map, "linux");
+}
+.flaticon-gaming:before {
+    content: map-get($flaticon-map, "gaming");
+}
+.flaticon-bicycle:before {
+    content: map-get($flaticon-map, "bicycle");
+}
+.flaticon-open-book:before {
+    content: map-get($flaticon-map, "open-book");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-japan-1:before {
+    content: map-get($flaticon-map, "japan-1");
+}
