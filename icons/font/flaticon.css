@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?66be86dba74542395e8e8565349819a8") format("truetype"), url("./flaticon.woff?66be86dba74542395e8e8565349819a8") format("woff"), url("./flaticon.woff2?66be86dba74542395e8e8565349819a8") format("woff2"), url("./flaticon.eot?66be86dba74542395e8e8565349819a8#iefix") format("embedded-opentype"), url("./flaticon.svg?66be86dba74542395e8e8565349819a8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-atom:before {
+  content: "";
+}
+
+.flaticon-api:before {
+  content: "";
+}
+
+.flaticon-tent:before {
+  content: "";
+}
+
+.flaticon-sleeping:before {
+  content: "";
+}
+
+.flaticon-goal:before {
+  content: "";
+}
+
+.flaticon-laboratory:before {
+  content: "";
+}
+
+.flaticon-pin:before {
+  content: "";
+}
+
+.flaticon-mail:before {
+  content: "";
+}
+
+.flaticon-sass:before {
+  content: "";
+}
+
+.flaticon-ts:before {
+  content: "";
+}
+
+.flaticon-jsx:before {
+  content: "";
+}
+
+.flaticon-motherboard:before {
+  content: "";
+}
+
+.flaticon-html:before {
+  content: "";
+}
+
+.flaticon-javascript:before {
+  content: "";
+}
+
+.flaticon-css:before {
+  content: "";
+}
+
+.flaticon-github-1:before {
+  content: "";
+}
+
+.flaticon-seo:before {
+  content: "";
+}
+
+.flaticon-gameboy:before {
+  content: "";
+}
+
+.flaticon-japan:before {
+  content: "";
+}
+
+.flaticon-xlsx:before {
+  content: "";
+}
+
+.flaticon-js:before {
+  content: "";
+}
+
+.flaticon-v:before {
+  content: "";
+}
+
+.flaticon-linux:before {
+  content: "";
+}
+
+.flaticon-gaming:before {
+  content: "";
+}
+
+.flaticon-bicycle:before {
+  content: "";
+}
+
+.flaticon-open-book:before {
+  content: "";
+}
+
+.flaticon-youtube:before {
+  content: "";
+}
+
+.flaticon-japan-1:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */
