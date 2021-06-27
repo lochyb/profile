@@ -1,6 +1,6 @@
-### @Lochyb Personal Profile
+# @Lochyb Personal Profile
 
-## Viewable [HERE](https://lochyb.github.io/profile/)
+### Viewable [HERE](https://lochyb.github.io/profile/)
 
 ## Made Using
 
