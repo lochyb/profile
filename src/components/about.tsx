@@ -64,7 +64,7 @@ export const About = () => {
           <i className='flaticon-pin'></i>Japan, Tokyo
         </h6>
         <h6>
-          <a href='https://lochyb.github.io/profile/'>
+          <a href='https://github.com/lochyb'>
             <i className='flaticon-github-1'></i>Github Profile
           </a>
         </h6>
