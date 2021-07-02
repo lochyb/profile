@@ -12,7 +12,7 @@ export const Menu = () => {
       <input
         type='checkbox'
         className='behind'
-        checked={checked}
+        defaultChecked={checked}
         onClick={() => setChecked(!checked)}
       />
       <div className='hamburger-menu-icon'>
