@@ -1,13 +1,38 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-  <h1>First Commit</h1>
-    <div id="app"></div>
-  </body>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico"/>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@lochyb</title>
+    <script
+            type="module"
+            src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
+    ></script>
+</head>
+<body>
+
+<div class="profile-card">
+    <h1>Lochlan Bernard</h1>
+    <div class="frame">
+        <span></span>
+        <img src="public/profile.jpg" alt="profile"/>
+    </div>
+    <div>
+        <a href="https://github.com/lochyb/" target="_blank">Github</a>
+        <a href="https://leetcode.com/lochyb/" target="_blank">Leetcode</a>
+    </div>
+</div>
+
+<zero-md src="/src/markdown/profile.md">
+    <template>
+        <link rel="stylesheet" href="src/css/markdown_styles.css"/>
+        <link rel="stylesheet" href="src/css/prism-duotone.css"/>
+    </template>
+</zero-md>
+</body>
 </html>

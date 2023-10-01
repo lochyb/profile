@@ -1,0 +1,106 @@
+:root {
+    --accent: #4ecdc4;
+    --visited: #c8f7c5;
+    --text: #F5F5F5;
+    --background: #242424;
+    --alt-background: #484848;
+    --border: #CCCCCC;
+
+    --header-background: #8BC6EC;
+    --header-accent: #9599E2;
+
+    font-family: 'Roboto Mono', Inter, system-ui, Avenir, Helvetica, Arial, monospace;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: var(--text);
+    background-color: var(--background);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    max-width: 42rem;
+    position: relative;
+}
+
+a {
+    background-color: inherit;
+    color: var(--accent);
+    text-underline-offset: 2px;
+}
+
+a:visited {
+    color: var(--visited);
+}
+
+a:hover {
+    text-underline-offset: 4px;
+}
+
+img[alt=profile] {
+    display: flex;
+    max-width: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+
+.profile-card {
+    position: relative;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.frame {
+    position: relative;
+    padding-bottom: 1em;
+}
+
+.frame span{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    left: 30px;
+    top: -10px;
+    border-radius: 50%;
+    max-width: 220px;
+    height: 100%;
+    max-height: 220px;
+    background-color: var(--header-background);
+    background-image: linear-gradient(45deg, var(--header-background) 0%, var(--header-accent) 100%);
+
+}
+
+
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --accent: #804028;
+        --visited: #552f00;
+        --text: #2a150d;
+        --border: #242424;
+        --background: #F5F5F5;
+        --alt-background: #ECECEC;
+
+        --header-background: #85FFBD;
+        --header-accent: #FFFB7D;
+    }
+
+}
