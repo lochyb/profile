@@ -13,11 +13,12 @@
             type="module"
             src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
     ></script>
+    <script src="src/js/script.js"></script>
 </head>
 <body>
 
 <div class="profile-card">
-    <h1>Lochlan Bernard</h1>
+    <h1 id="profile-name">Lochlan Bernard</h1>
     <div class="frame">
         <span></span>
         <img src="public/profile.jpg" alt="profile"/>
@@ -28,7 +29,26 @@
     </div>
 </div>
 
-<zero-md src="/src/markdown/profile.md">
+<div role="switch"
+     aria-checked="false"
+     id="markdown-language-switch"
+     tabindex="0">
+  <span class="label">
+   Language
+  </span>
+    <span class="switch">
+    <span></span>
+  </span>
+    <span class="on" aria-hidden="true" aria-label="Japanese">
+    JP
+  </span>
+    <span class="off" aria-hidden="true" aria-label="English">
+    EN
+  </span>
+</div>
+
+
+<zero-md id="markdown" src="/src/markdown/profile.md">
     <template>
         <link rel="stylesheet" href="src/css/markdown_styles.css"/>
         <link rel="stylesheet" href="src/css/prism-duotone.css"/>

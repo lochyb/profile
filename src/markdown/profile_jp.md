@@ -13,13 +13,17 @@
 
 # About Me
 
-- Australian 🦘 living in Japan 🎏
-- Can speak English 🇦🇺 and Japanese 🇯🇵
-- Frontend & Backend Software Engineer 👨‍💻
+`自己紹介`
+
+- 日本 🎏 に住んでいるオーストラリア人 🦘
+- 英語 🇦🇺 と日本語 🇯🇵 を話せる
+- フロント・バックエンドソフトウエアエンジニア 👨‍💻
 
 <br>
 
 # This Site
+
+`このサイト`
 
 I decided to use markdown to convey all information on this page. Using markdown to control the contents allows for quick and easy edits. Using markdown's
 standardized structure helps enforce a uniform stying for the content.
@@ -33,28 +37,34 @@ standardized structure helps enforce a uniform stying for the content.
 
 # Hobbies
 
-- 🏃‍ Running
-- 🚴‍ Cycling
-- 🏊‍ Swimming
-- 🏋 Calisthenics
-- 🛰️ Sci-fi Movies
-- ⛺️ Camping
+`趣味`
+
+- 🏃‍ ランニング
+- 🚴‍ サイクリング
+- 🏊‍ 水泳
+- 🏋 筋トレ
+- 🛰️ サイファイ 映画
+- ⛺️ キャンプ
 
 ## Sports Gear I Use
 
-| Type    | Name                         |
+`スポーツに使う物`
+
+| 種別      | 名前                           |
 |---------|:-----------------------------|
-| Bicycle | 2022 Trek Emonda sl5         |
-| Tracker | Garmin fenix 6s sapphire     |
-| Tracker | Garmin xrh heartrate monitor |
-| Shoes   | Altra Torin 6,7              |
-| Shoes   | ON Cloudflow                 |
+| 自転車     | 2022 Trek Emonda sl5         |
+| フィトネス集計 | Garmin fenix 6s sapphire     |
+| フィトネス集計 | Garmin xrh heartrate monitor |
+| 靴       | Altra Torin 6,7              |
+| 靴       | ON Cloudflow                 |
 
 <br>
 
 # Programming Skills
 
-| Language   | Skill                                                                        |
+`プログラミング スキル`
+
+| 言語         | スキル                                                                          |
 |------------|------------------------------------------------------------------------------|
 | PHP        | [Laravel](https://laravel.com/)                                              |
 | PHP        | [CodeIgniter](https://codeigniter.com/)                                      |
@@ -69,6 +79,8 @@ standardized structure helps enforce a uniform stying for the content.
 
 ## Others
 
+`その他`
+
 - [Flutter](https://flutter.dev/)
 - [Docker](https://www.docker.com/)
 - [AWS](https://aws.amazon.com/)
@@ -80,6 +92,8 @@ standardized structure helps enforce a uniform stying for the content.
 <br>
 
 # Joke
+
+`ガグ`
 
 ```js
 !false

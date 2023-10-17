@@ -60,11 +60,13 @@ img[alt=profile] {
 }
 
 
-
 .profile-card {
     position: relative;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .frame {
@@ -72,22 +74,76 @@ img[alt=profile] {
     padding-bottom: 1em;
 }
 
-.frame span{
+.frame span {
     position: absolute;
     z-index: -1;
     content: "";
-    width: 100%;
-    left: 30px;
+    width: 110%;
+    left: -15px;
     top: -10px;
     border-radius: 50%;
     max-width: 220px;
-    height: 100%;
+    height: 110%;
     max-height: 220px;
     background-color: var(--header-background);
     background-image: linear-gradient(45deg, var(--header-background) 0%, var(--header-accent) 100%);
 
 }
 
+[role="switch"] {
+    margin: 2px;
+    padding: 4px 4px 8px 8px;
+    border: 0 solid var(--accent);
+    border-radius: 5px;
+    user-select: none;
+}
+
+[role="switch"] .switch {
+    position: relative;
+    display: inline-block;
+    top: 6px;
+    border: 2px solid var(--text);
+    border-radius: 12px;
+    height: 20px;
+    width: 40px;
+}
+
+[role="switch"] .switch span {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: inline-block;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    background: var(--text);
+}
+
+[role="switch"][aria-checked="true"] .switch span {
+    left: 22px;
+    background: var(--text);
+}
+
+[role="switch"] .on {
+    display: none;
+}
+
+[role="switch"][aria-checked="true"] .on {
+    display: inline;
+}
+
+[role="switch"] .off {
+    display: inline;
+}
+
+[role="switch"][aria-checked="true"] .off {
+    display: none;
+}
+
+[role="switch"]:focus,
+[role="switch"]:hover {
+    cursor: pointer;
+}
 
 
 @media (prefers-color-scheme: light) {
