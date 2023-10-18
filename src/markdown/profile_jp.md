@@ -1,12 +1,12 @@
 <!-- TOC -->
-* [About Me](#about-me)
-* [This Site](#this-site)
-  * [Technologies Used](#technologies-used)
-* [Hobbies](#hobbies)
-  * [Sports Gear I Use](#sports-gear-i-use)
-* [Programming Skills](#programming-skills)
-  * [Others](#others)
-* [Joke](#joke)
+* [自己紹介](#about-me)
+* [このサイト](#this-site)
+  * [使用している技術](#technologies-used)
+* [趣味](#hobbies)
+  * [スポーツに使う物](#sports-gear-i-use)
+* [プログラミング スキル](#programming-skills)
+  * [その他](#others)
+* [ガグ](#joke)
 <!-- TOC -->
 
 <br>
