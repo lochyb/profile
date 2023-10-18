@@ -25,10 +25,12 @@
 
 `このサイト`
 
-I decided to use markdown to convey all information on this page. Using markdown to control the contents allows for quick and easy edits. Using markdown's
-standardized structure helps enforce a uniform stying for the content.
+このページの情報を伝えるためにマークダウンを使用することにしました。 マークダウンを使用すると、迅速かつ簡単にコンテンツを編集できます。 マークダウンの使用
+標準化された構造は、コンテンツの均一な結合を強制するのに役立ちます。
 
 ## Technologies Used
+
+`使用している技術`
 
 - [zero-md](https://github.com/zerodevx/zero-md)
 - [vite](https://vitejs.dev/) w/ vanilla template

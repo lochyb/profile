@@ -52,17 +52,39 @@ class LanguageToggleSwitch {
         const newProfileName =
             `${currentProfileLanguage ? "バーナード・ロックラン" : "Lochlan Bernard"}`;
 
-
         document
             .getElementById('profile-name').innerText = newProfileName
 
     }
 }
 
-// Initialize Markdown Language Switch
+class ThemeToggleSwitch {
+
+    constructor(_domNode) {
+        this.switchNode = _domNode;
+        this.mode = this.switchNode.attributes.id.value
+        this.switchNode.addEventListener('click', () => {
+            this.toggleTheme();
+        });
+    }
+
+    toggleTheme() {
+        document.documentElement.setAttribute("data-theme", this.mode);
+    }
+}
+
 window.addEventListener('load', function () {
-    const element =
+    const markdownSwitchElement =
         document.getElementById('markdown-language-switch');
 
-    new LanguageToggleSwitch(element);
+    new LanguageToggleSwitch(markdownSwitchElement);
+
+    const themeButtonElements =
+        document.getElementsByName('theme-button');
+
+    themeButtonElements.forEach(
+        (element) => {
+            new ThemeToggleSwitch(element)
+        }
+    );
 });
