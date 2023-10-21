@@ -3,8 +3,5 @@ export default {
     assetsInclude: [
         'src/*'
     ],
-
-    publicPath: [
-        
-    ]
+    base: '/profile/'
 }
