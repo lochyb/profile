@@ -37,7 +37,7 @@ class LanguageToggleSwitch {
             this.switchNode.getAttribute('aria-checked') === 'true';
 
         const newMarkdownLanguageSrcPath =
-            `/src/markdown/profile${currentMarkdownLanguage ? "_jp" : ""}.md`;
+            `markdown/profile${currentMarkdownLanguage ? "_jp" : ""}.md`;
 
         document
             .getElementById('markdown')
