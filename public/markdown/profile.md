@@ -45,6 +45,7 @@ standardized structure helps enforce a uniform stying for the content.
 | Type    | Name                         |
 |---------|:-----------------------------|
 | Bicycle | 2022 Trek Emonda sl5         |
+| Bicycle | Wahoo Core V6 Indoor Trainer |
 | Tracker | Garmin fenix 6s sapphire     |
 | Tracker | Garmin xrh heartrate monitor |
 | Shoes   | Altra Torin 6,7              |
