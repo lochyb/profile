@@ -55,6 +55,7 @@
 | 種別      | 名前                           |
 |---------|:-----------------------------|
 | 自転車     | 2022 Trek Emonda sl5         |
+| Bicycle | Wahoo Core V6 Indoor Trainer |
 | フィトネス集計 | Garmin fenix 6s sapphire     |
 | フィトネス集計 | Garmin xrh heartrate monitor |
 | 靴       | Altra Torin 6,7              |
