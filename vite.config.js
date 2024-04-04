@@ -4,5 +4,13 @@ export default defineConfig({
     assetsInclude: [
         'src/*'
     ],
-    base: '/profile/'
+    base: '/profile/',
+    build: {
+        rollupOptions: {
+          input: {
+            home: 'index.html',
+            sand: 'sand.html'
+          }
+        }
+      }
 })
