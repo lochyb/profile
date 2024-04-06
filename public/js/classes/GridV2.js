@@ -32,11 +32,10 @@ class GridV2 {
         this.nextState[row * this.columns + column] = value;
     }
 
-
     generateNextState() {
 
-        for (let i = this.state.length; i >= 0; i--) {
-            if (this.isActivePoint(i)) {
+        for (let i = this.state.length -1; i >= 0; i--) {
+            if (!this.isEmpty(i)) {
 
                 for (let j = this.gravityState[i]; j >= 0; j--) {
                     this.determineNextPosition(i, j);
@@ -53,8 +52,8 @@ class GridV2 {
     }
 
     determineNextPosition(i, j) {
-        const current = grid.state[i];
-        const belowIndex = grid.getBelowIndex(i) + (j * this.columns);
+        const current = this.state[i];
+        const belowIndex = this.getBelowIndex(i) + (j * this.columns);
         const belowLeftIndex = belowIndex - 1;
         const belowRightIndex = belowIndex + 1;
 
@@ -88,16 +87,12 @@ class GridV2 {
         return this.state[index].isEmpty;
     }
 
-    isActivePoint(index) {
-        return this.state[index]?.isEmpty === false;
-    }
-
     getCurrentColumn(index) {
-        return index - (this.getCurrentRow(index) * grid.columns);
+        return index - (this.getCurrentRow(index) * this.columns);
     }
 
     getCurrentRow(index) {
-        return Math.floor((index / grid.columns));
+        return Math.floor((index / this.columns));
     }
 
     getBelowIndex(index) {
@@ -121,10 +116,10 @@ class GridV2 {
     }
 
     getBlockX(index) {
-        return grid.getCurrentColumn(index) * this.particleWidth;
+        return this.getCurrentColumn(index) * this.particleWidth;
     }
 
     getBlockY(index) {
-        return grid.getCurrentRow(index) * this.particleWidth;
+        return this.getCurrentRow(index) * this.particleWidth;
     }
 }
