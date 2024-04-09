@@ -1,5 +1,6 @@
 <!-- TOC -->
 * [About Me](#about-me)
+* [Articles](#articles)
 * [This Site](#this-site)
   * [Technologies Used](#technologies-used)
 * [Hobbies](#hobbies)
@@ -16,6 +17,12 @@
 - Australian 🦘 living in Japan 🎏
 - Can speak English 🇦🇺 and Japanese 🇯🇵
 - Frontend & Backend Software Engineer 👨‍💻
+
+<br>
+
+# Articles
+
+- [Sand Simulation](/profile/sand-v2)
 
 <br>
 
