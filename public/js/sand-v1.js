@@ -1,7 +1,3 @@
-function sample(array) {
-    return array[Math.floor(Math.random() * array.length)];
-}
-
 class Grid {
     /**
      * 
